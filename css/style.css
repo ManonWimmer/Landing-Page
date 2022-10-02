@@ -1,0 +1,1598 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ----- HEADER ----- */
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.article-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-lava{
+    display: block;
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.nom{
+    font-size: 35px;
+}
+
+nav{
+    width: 30%;
+}
+
+.nav-link{
+    font-size: 1rem;
+    text-decoration: 0;
+    color: white;
+}
+
+.nav-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ----- HEADER ----- */
+
+
+/* ----- ACCUEIL ----- */
+
+.article-princ{
+    height: 820px;
+    background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+    display:inline-flex;
+    width: 100%;
+}
+
+.img-princ{
+    width: 100%;
+    height: 819px;
+}  
+
+.h2-princ{
+    margin-left: -50%;
+    margin-bottom: 80%;
+    font-size: 70px;
+    text-align: right;
+    color: white;
+}
+
+/* ----- ACCUEIL ----- */
+
+
+/* ----- PRODUIT ----- */
+
+.container-produit{
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container-produit h2{
+    color: white;
+}
+
+.div-produit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.div-img1, .div-img2, .div-img3{
+    border-radius : 50%;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.div-img1{
+    background-image: linear-gradient( -70.4deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% );
+}
+
+.div-img2{
+    width: 550px;
+    height: 550px;
+    background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+}
+
+.div-img3{
+    background-image: linear-gradient( 109.6deg,  rgba(44,83,131,1) 18.9%, rgba(95,175,201,1) 91.1% );
+}
+
+.div-img1, .div-img3{
+    width: 350px;
+    height: 350px;
+}
+
+
+/* ----- PRODUIT ----- */
+
+
+/* ----- CARACTERISTIQUES ----- */
+
+.container-carac{
+    background-image: linear-gradient( -8.2deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+}
+
+.container-carac h2{
+    padding: 20px;
+    color: white;
+}
+
+.div-carac{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.div-carac1, .div-carac2, .div-carac3, .div-carac4{
+    background-color: black;
+    padding: 20px;
+    border-radius: 5%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.carac-img1, .carac-img3{
+    width: 300px;
+    height: 300px; 
+    border-radius: 5%;
+}
+
+.carac-img2{
+    width: 150px;
+    height: 300px; 
+    border-radius: 5%;
+}
+
+.carac-titre{
+    color: white;
+    text-align: center;
+}
+
+.carac-p{
+    color: white;
+    text-align: center;
+}
+
+/* ----- CARACTERISTIQUES ----- */
+
+
+/* ----- TECHNOLOGIE ----- */
+  
+.container-tech{
+    height: 725px;
+}
+
+.container-tech h2{
+    color: white;
+}
+
+.div-tech{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 40px;
+    height: 600px;
+}
+
+.div-tech1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border-radius: 5%;
+    background-color: black;
+}
+
+.div-tech-img1{
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+    padding: 20px;
+}
+
+.img-tech1{
+    width: 50%;
+    border-radius: 5%;
+}
+
+.img-tech2{
+    width: 40%;
+    border-radius: 5%;
+}
+
+.div-tech-img2{
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-tech3{
+    width: 60%;
+    border-radius: 5%;
+}
+
+.img-tech4{
+    width: 30%;
+    border-radius: 5%;
+}
+
+.img-tech1, .img-tech2, .img-tech3, .img-tech4{
+    border: 4px solid rgba(5,111,146,1);
+}
+
+.div-tech2{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+}
+
+.ul-tech{
+    display: flex;
+    flex-direction: column;
+}
+
+.li1-tech, .li2-tech, .li3-tech{
+    padding: 1em;
+    color: white;
+    font-size: 18px;
+}
+
+/* ----- TECHNOLOGIE ----- */
+
+
+/* ----- CONTACT ----- */
+
+.container-contact{
+    background-image: linear-gradient( -8.2deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-contact h2{
+    color: white;
+}
+
+.div-contact1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-height: 315px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+}
+
+.div-contact1-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-height: 315px;
+    padding: 30px;
+}
+
+.div-text-contact{
+    background-color: black;
+    width : 100%;
+    height: 60%;
+    border-radius: 5%;
+    border: 2px solid white;
+}
+
+.ul-contact{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.li1-contact, .li2-contact, .li3-contact, .li4-contact{
+    padding: 1em;
+    color: white;
+}
+
+.div-button{
+    padding-top: 30px;
+}
+
+.acheter-button{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    transition: .3s;
+    height: 20%;
+    text-decoration: none;
+}
+
+.acheter-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.video-contact{
+    width: 100%;
+    height: 100%;
+}
+
+.video-lava{
+    width: 100%; 
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+/* ----- CONTACT ----- */
+
+
+/* ----- FOOTER ----- */
+
+.footer{
+    background-color: black;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#span-footer{
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-reseaux{
+    margin-bottom: 3rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-link{
+    display: inline-flex;
+    background-color: white;
+    color: black;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    padding: 1.40rem;
+    margin: 0 1rem;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    background-image: linear-gradient( -8.2deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+    color: white;
+}
+
+/* ----- FOOTER ----- */
+
+
+/* Tout de base configuré pour écran 1920x1080 */
+
+@media screen and (max-width: 1629px){
+    /* ----- TECHNOLOGIE ----- */
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 17px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 1629px){
+    /* ----- HEADER ----- */
+    nav{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+    
+    .nom{
+        font-size: 23px;
+    }
+    /* ----- HEADER ----- */
+}
+
+@media screen and (max-width: 1617px){
+    /* ----- HEADER ----- */
+    nav{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+    
+    .nom{
+        font-size: 23px;
+    }
+    /* ----- HEADER ----- */
+}
+
+@media screen and (max-width: 1460px){
+    /* ----- TECHNOLOGIE ----- */
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 16px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 1360px){
+    /* ----- HEADER ----- */
+    nav{
+        width: 45%;
+    }
+    /* ----- HEADER ----- */
+    
+    /* ----- ACCUEIL ----- */
+    .article-princ{
+        height: 680px;
+    }
+
+    .img-princ{
+        height: 679px;
+    }  
+
+    .h2-princ{
+        margin-left: -50%;
+        font-size: 50px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 500px;
+    }
+
+    .div-img2{
+        width: 400px;
+        height: 400px;
+    }
+
+
+    .div-img1, .div-img3{
+        width: 275px;
+        height: 275px;
+    }
+    /* ----- PRODUIT ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .div-carac1, .div-carac2, .div-carac3, .div-carac4{
+        padding: 20px;
+        width: 20%;
+        height: 450px;
+    }
+
+    .carac-img1, .carac-img3{
+        width: 250px;
+        height: 250px; 
+    }
+
+    .carac-img2{
+        width: 110px;
+        height: 250px; 
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+    /* ----- TECHNOLOGIE ----- */
+    .container-tech{
+        height: 625px;
+    }
+
+    .div-tech{
+        padding: 20px;
+        height: 500px;
+    }
+
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 13px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 1152px){
+    /* ----- HEADER ----- */
+    nav{
+        width: 50%;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+    
+    .nom{
+        font-size: 28px;
+    }
+    /* ----- HEADER ----- */
+    
+    /* ----- ACCUEIL ----- */
+    .article-princ{
+        height: 810px;
+    }
+
+    .img-princ{
+        height: 809px;
+        margin-left: -10%;
+    }  
+
+    .h2-princ{
+        margin-left: -53%;
+        font-size: 50px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 600px;
+    }
+
+    .div-img2{
+        width: 420px;
+        height: 420px;
+    }
+
+    .div-img1, .div-img3{
+        width: 215px;
+        height: 215px;
+    }
+    /* ----- PRODUIT ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .div-carac1, .div-carac2, .div-carac3, .div-carac4{
+        padding: 20px;
+        width: 20%;
+        height: 425px;
+    }
+
+    .carac-img1, .carac-img3{
+        width: 225px;
+        height: 225px; 
+    }
+
+    .carac-img2{
+        width: 110px;
+        height: 225px; 
+    }
+
+    .carac-titre{
+        font-size: 18px;
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+    /* ----- TECHNOLOGIE ----- */
+    .container-tech{
+        height: 580px;
+    }
+
+    .div-tech{
+        padding: 20px;
+        height: 450px;
+    }
+
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 11px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 1024px){
+    /* ----- ACCUEIL ----- */
+    .article-princ{
+        height: 700px;
+    }
+
+    .img-princ{
+        height: 699px;
+        margin-left: -10%;
+    }  
+
+    .h2-princ{
+        margin-left: -53%;
+        font-size: 50px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 550px;
+    }
+
+    .div-img2{
+        width: 410px;
+        height: 410px;
+    }
+
+    .div-img1, .div-img3{
+        width: 175px;
+        height: 175px;
+    }
+    /* ----- PRODUIT ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .div-carac1, .div-carac2, .div-carac3, .div-carac4{
+        padding: 20px;
+        width: 20%;
+        height: 425px;
+    }
+
+    .carac-img1, .carac-img3{
+        width: 200px;
+        height: 200px; 
+    }
+
+    .carac-img2{
+        width: 100px;
+        height: 200px; 
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+    /* ----- TECHNOLOGIE ----- */
+    .container-tech{
+        height: 580px;
+    }
+
+    .div-tech{
+        padding: 20px;
+        height: 450px;
+    }
+
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 11px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 987px){
+    /* ----- HEADER ----- */
+    nav{
+        width: 40%;
+    }
+
+    .nav-link{
+        font-size: 1.3rem;
+    }
+    
+    .nav-list{
+        margin: 0;
+        padding: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-lava{
+        max-width:50px;
+        max-height:50px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+    
+    .nom{
+        font-size: 22px;
+    }
+    /* ----- HEADER ----- */
+
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 460px;
+    }
+
+    .div-img2{
+        width: 320px;
+        height: 320px;
+    }
+
+    .div-img1, .div-img3{
+        width: 175px;
+        height: 175px;
+    }
+    /* ----- PRODUIT ----- */
+}
+
+@media screen and (max-width: 915px){
+    /* ----- TECHNOLOGIE ----- */
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 10px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 884px){
+    /* ----- ACCUEIL ----- */
+    .article-princ{
+        height: 500px;
+    }
+
+    .img-princ{
+        height: 499px;
+        margin-left: -13%;
+    }  
+
+    .h2-princ{
+        margin-left: -50%;
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 450px;
+    }
+
+    .div-img2{
+        width: 310px;
+        height: 310px;
+    }
+
+    .div-img1, .div-img3{
+        width: 155px;
+        height: 155px;
+    }
+    /* ----- PRODUIT ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .div-carac1, .div-carac2, .div-carac3, .div-carac4{
+        padding: 20px;
+        width: 15%;
+        height: 425px;
+    }
+
+    .carac-img1, .carac-img3{
+        width: 130px;
+        height: 130px; 
+    }
+
+    .carac-img2{
+        width: 80px;
+        height: 130px; 
+    }
+    /* ----- CARACTERISTIQUES ----- */
+}
+
+@media screen and (max-width: 790px){
+    /* ----- TECHNOLOGIE ----- */
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 9px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 778px){
+    /* ----- HEADER ----- */
+    nav{
+        width: 52%;
+    }
+
+    .nav-link{
+        font-size: 0.78rem;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+    
+    .nom{
+        font-size: 18px;
+    }
+    /* ----- HEADER ----- */
+
+    /* ----- ACCUEIL ----- */
+    .article-princ{
+        height: 500px;
+    }
+
+    .img-princ{
+        height: 499px;
+        margin-left: -13%;
+    }  
+
+    .h2-princ{
+        margin-left: -50%;
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 425px;
+    }
+
+    .div-img2{
+        width: 280px;
+        height: 280px;
+    }
+
+    .div-img1, .div-img3{
+        width: 125px;
+        height: 125px;
+    }
+    /* ----- PRODUIT ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .div-carac1, .div-carac2, .div-carac3, .div-carac4{
+        padding: 20px;
+        width: 16%;
+        height: 425px;
+    }
+
+    .carac-img1, .carac-img3{
+        width: 130px;
+        height: 130px; 
+    }
+
+    .carac-img2{
+        width: 80px;
+        height: 130px; 
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+    /* ----- TECHNOLOGIE ----- */
+    .container-tech{
+        height: 500px;
+    }
+
+    .div-tech{
+        padding: 20px;
+        height: 420px;
+    }
+
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 9px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 728px){
+    h1{
+        font-size: 20px;
+    }
+    
+    .nom{
+        font-size: 16px;
+    }
+    /* ----- HEADER ----- */
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 400px;
+    }
+
+    .div-img2{
+        width: 260px;
+        height: 260px;
+    }
+
+    .div-img1, .div-img3{
+        width: 115px;
+        height: 115px;
+    }
+    /* ----- PRODUIT ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .div-carac1, .div-carac2, .div-carac3, .div-carac4{
+        padding: 20px;
+        width: 16%;
+        height: 425px;
+    }
+
+    .carac-img1, .carac-img3{
+        width: 130px;
+        height: 130px; 
+    }
+
+    .carac-img2{
+        width: 80px;
+        height: 130px; 
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+    /* ----- TECHNOLOGIE ----- */
+    .container-tech{
+        height: 500px;
+    }
+
+    .div-tech{
+        padding: 20px;
+        height: 420px;
+    }
+
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 9px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 672px){
+    /* ----- ACCUEIL ----- */
+    .h2-princ{
+        margin-left: -53%;
+        font-size: 30px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 380px;
+    }
+
+    .div-img2{
+        width: 240px;
+        height: 240px;
+    }
+
+    .div-img1, .div-img3{
+        width: 100px;
+        height: 100px;
+    }
+    /* ----- PRODUIT ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .carac-img1, .carac-img3{
+        width: 120px;
+        height: 120px; 
+    }
+
+    .carac-img2{
+        width: 75px;
+        height: 120px; 
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+    /* ----- TECHNOLOGIE ----- */
+
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 8px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 684px){
+    /* ----- TECHNOLOGIE ----- */
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 8px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 628px){
+    
+}
+
+@media screen and (max-width: 592px){
+    /* ----- TECHNOLOGIE ----- */
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 7px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 518px){
+    /* ----- TECHNOLOGIE ----- */
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 6px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 438px){
+    /* ----- TECHNOLOGIE ----- */
+    .li1-tech, .li2-tech, .li3-tech{
+        font-size: 5px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 425px){
+    /* ----- HEADER ----- */
+    nav{
+        width: 60%;
+    }
+
+    .nav-link{
+        font-size: .7rem;
+    }
+    
+    .nav-list{
+        margin: 0;
+        padding: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-lava{
+        max-width:50px;
+        max-height:50px;
+    }
+
+    h1{
+        font-size: 19px;
+    }
+    
+    .nom{
+        font-size: 19px;
+    }
+    /* ----- HEADER ----- */
+
+    /* ----- ACCUEIL ----- */
+    .article-princ{
+        height: 400px;
+    }
+
+    .img-princ{
+        height: 399px;
+        margin-left: -13%;
+    }  
+
+    .h2-princ{
+        margin-left: -53%;
+        font-size: 22px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- PRODUIT ----- */
+    .container-produit{
+        background-color: black;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+    .container-produit h2{
+        color: white;
+    }
+
+    .div-produit{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1000px;
+    }
+
+    .div-img1, .div-img2, .div-img3{
+        border-radius : 50%;
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+
+    .div-img2, .img2{
+        width: 310px;
+        height: 310px;
+    }
+
+    .div-img1, .div-img3, .img1, .img3{
+        width: 225px;
+        height: 225px;
+    }
+    /* ----- PRODUIT ----- */
+
+
+    /* ----- CARACTERISTIQUES ----- */
+    .container-carac h2{
+        padding: 20px;
+        color: white;
+    }
+
+    .div-carac{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        height: 1800px;
+    }
+
+    .div-carac1, .div-carac2, .div-carac3, .div-carac4{
+        padding: 20px;
+        border-radius: 5%;
+        width: 75%;
+        height: 400px;
+    }
+
+    .carac-img1, .carac-img3{
+        width: 260px;
+        height: 260px; 
+        border-radius: 5%;
+    }
+
+    .carac-img2{
+        width: 120px;
+        height: 260px; 
+        border-radius: 5%;
+    }
+
+    .carac-titre{
+        color: white;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .carac-p{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        text-align: justify;
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+
+    /* ----- TECHNOLOGIE ----- */
+    .container-tech{
+        height: 1500px;
+    }
+
+    .div-tech{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 40px;
+        height: 600px;
+    }
+
+    .div-tech1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-radius: 5%;
+        background-color: black;
+    }
+
+    .div-tech-img1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 20px;
+        height: 350px;
+    }
+
+    .img-tech1{
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .img-tech2{
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .div-tech-img2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        height: 380px;
+    }
+
+    .img-tech3{
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .img-tech4{
+        width: 100%;
+        border-radius: 5%;
+    }
+
+    .img-tech1, .img-tech2, .img-tech3, .img-tech4{
+        border: 4px solid rgba(5,111,146,1);
+    }
+
+    .div-tech2{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5%;
+        background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+    }
+
+    .ul-tech{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .li1-tech, .li2-tech, .li3-tech{
+        padding: 1em;
+        color: white;
+        font-size: 13px;
+        text-align: justify;
+    }
+    /* ----- TECHNOLOGIE ----- */
+
+
+    /* ----- CONTACT ----- */
+    .container-contact{
+        background-image: linear-gradient( -8.2deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+        height: 625px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .container-contact h2{
+        color: white;
+    }
+
+    .div-contact1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        max-height: 315px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 90%;
+    }
+
+    .div-contact1-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        max-height: 315px;
+        padding: 30px;
+    }
+
+    .div-text-contact{
+        background-color: black;
+        width : 100%;
+        height: 80%;
+        border-radius: 5%;
+        border: 2px solid white;
+    }
+
+    .ul-contact{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    .li1-contact, .li2-contact, .li3-contact, .li4-contact{
+        padding: 1em;
+        color: white;
+    }
+
+    .div-button{
+        padding-top: 30px;
+    }
+
+    .acheter-button{
+        display: inline-block;
+        background-color: white;
+        color: black;
+        padding: 1rem 2rem;
+        border-radius: .5rem;
+        transition: .3s;
+        height: 40%;
+        text-decoration: none;
+    }
+
+    .acheter-button:hover{
+        background-color: black;
+        color: white;
+    }
+
+    .video-contact{
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-lava{
+        width: 100%; 
+        height: 100%;
+        border: 2px solid black;
+        border-radius: 5%;
+    }
+    /* ----- CONTACT ----- */
+
+
+    /* ----- FOOTER ----- */
+    .footer{
+        background-color: black;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #span-footer{
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-reseaux{
+        margin-bottom: 3rem;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-link{
+        display: inline-flex;
+        background-color: white;
+        color: black;
+        font-size: 1.4rem;
+        border-radius: 50%;
+        padding: .5rem;
+        margin: 0 1rem;
+        transition: .3s;
+        text-decoration: none;
+    }
+
+    .footer-link:hover{
+        background-image: linear-gradient( -8.2deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% );
+        color: white;
+    }
+
+    /* ----- FOOTER ----- */
+}
+
+@media screen and (max-width: 375px){
+    /* ----- ACCUEIL ----- */
+    .article-princ{
+        height: 400px;
+    }
+
+    .img-princ{
+        height: 399px;
+        margin-left: -13%;
+    }  
+
+    .h2-princ{
+        margin-left: -53%;
+        font-size: 19px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .div-carac1, .div-carac2, .div-carac3, .div-carac4{
+        padding: 20px;
+        border-radius: 5%;
+        width: 75%;
+        height: 400px;
+    }
+
+    .carac-img1, .carac-img3{
+        width: 240px;
+        height: 240px; 
+        border-radius: 5%;
+    }
+
+    .carac-img2{
+        width: 120px;
+        height: 240px; 
+        border-radius: 5%;
+    }
+
+    .carac-titre{
+        color: white;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .carac-p{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+
+    /* ----- TECHNOLOGIE ----- */
+    .container-tech{
+        height: 1475px;
+    }
+
+    .div-tech1{
+        width: 100%;
+    }
+
+    .div-tech-img1{
+        height: 100%;
+        padding: 20px;
+        height: 300px;
+    }
+
+    .img-tech1{
+        width: 100%;
+    }
+
+    .img-tech2{
+        width: 100%;
+    }
+
+    .div-tech-img2{
+        height: 100%;
+        height: 325px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+}
+
+@media screen and (max-width: 320px){
+    /* ----- HEADER ----- */
+    nav{
+        width: 50%;
+    }
+
+    .nav-link{
+        font-size: .6rem;
+    }
+
+    .logo-lava{
+        max-width:40px;
+        max-height:40px;
+    }
+
+    h1{
+        font-size: 13px;
+    }
+    
+    .nom{
+        font-size: 13px;
+    }
+    /* ----- HEADER ----- */
+
+
+    /* ----- ACCUEIL ----- */
+    .article-princ{
+        height: 400px;
+    }
+
+    .img-princ{
+        height: 399px;
+        margin-left: -13%;
+    }  
+
+    .h2-princ{
+        margin-left: -53%;
+        font-size: 17px;
+    }
+    /* ----- ACCUEIL ----- */
+
+    /* ----- PRODUIT ----- */
+    .div-produit{
+        height: 900px;
+    }
+
+    .div-img2, .img2{
+        width: 280px;
+        height: 280px;
+    }
+
+    .div-img1, .div-img3, .img1, .img3{
+        width: 200px;
+        height: 200px;
+    }
+    /* ----- PRODUIT ----- */
+
+    /* ----- CARACTERISTIQUES ----- */
+    .carac-img1, .carac-img3{
+        width: 210px;
+        height: 210px; 
+    }
+
+    .carac-img2{
+        width: 100px;
+        height: 210px; 
+    }
+    /* ----- CARACTERISTIQUES ----- */
+
+
+    /* ----- TECHNOLOGIE ----- */
+    .container-tech{
+        height: 1575px;
+    }
+
+    .div-tech-img1{
+        height: 240px;
+    }
+
+    .div-tech-img2{
+        height: 265px;
+    }
+    /* ----- TECHNOLOGIE ----- */
+
+
+    /* ----- CONTACT ----- */
+    .li1-contact, .li2-contact, .li3-contact, .li4-contact{
+        font-size: 14px;
+    }
+    /* ----- CONTACT ----- */
+
+
+    /* ----- FOOTER ----- */
+    .footer-link{
+        padding: .2rem;
+    }
+    /* ----- FOOTER ----- */
+}
